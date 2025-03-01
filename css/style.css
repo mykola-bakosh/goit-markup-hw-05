@@ -539,21 +539,23 @@ a {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   
 }
-.close-btn-icons {
+.close-btn-icons {}
   
+.close-btn {
+  display: flex;
+align-items: center;
+ justify-content: center;}
 
 
-}
 .close-btn{
   position: absolute;
    width: 24px;
     height: 24px;
    background-color: #e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 100%;
+    border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    position: absolute;
     top: 24px;
     right: 24px;
     cursor: pointer;
@@ -564,6 +566,7 @@ a {
 .close-btn:hover {
 background-color: #404BBF;
     fill: #ffffff;
+    border: none;
 }
 .modal-text  {
   font-family: "Roboto", sans-serif;
@@ -600,9 +603,12 @@ margin-bottom: 4px;
   border-radius: 4px;
   padding-left: 38px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus {
-  border: 1px solid #9747ff;}
+  border: 1px solid #9747ff;
+  border-color: #4D5AE5;
+}
 
 
   .modal-form-icon {
@@ -610,6 +616,8 @@ margin-bottom: 4px;
    top: 50%;
    left: 16px;
    transform: translateY(-50%);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.17; 
   }
   .modal-form-input:focus+.modal-form-icon {
     fill: #9747ff;
