@@ -669,6 +669,7 @@ color: #8e8f99;
 }
 .checkbox:checked + .label-checkbox .custpm-checkbox {
   fill:  #404bbf;
+  background-color: #404bbf;
   border: transparent;
 }
 .user-comment {
@@ -732,5 +733,12 @@ color: rgba(46, 47, 66, 0.4);
 }
 .modal-btn:hover, .modal-btn:focus{
     background-color: #404BBF;}
+    
+
+    .form-link{
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;}
 
 /*#endregiom beckdrop */
