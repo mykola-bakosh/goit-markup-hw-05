@@ -668,9 +668,8 @@ color: #8e8f99;
 
 }
 .checkbox:checked + .label-checkbox .custpm-checkbox {
-  background-color:  #404bbf;
+  fill:  #404bbf;
   border: transparent;
-  fill:  ;
 }
 .user-comment {
   width: 100%;
