@@ -562,7 +562,9 @@ align-items: center;
     cursor: pointer;
     fill: #2e2f42;
 }
-
+.close-btn-icons {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .close-btn:focus,
 .close-btn:hover {
 background-color: #404BBF;
@@ -620,9 +622,10 @@ margin-bottom: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
   }
-  .modal-form-input:focus+.modal-form-icon {
-    fill: #9747ff;
-  }
+  .modal-form-input:focus + .modal-form-icon {
+  fill: #4D5AE5;
+}
+
 .custpm-checkbox {
   border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
