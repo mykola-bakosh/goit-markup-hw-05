@@ -642,12 +642,12 @@ color: #4d5ae5;
   cursor: pointer;
   font-weight: 400;
 font-size: 12px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
 .cont-user-text{
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 .modal-form-label {
     font-weight: 400;
@@ -684,7 +684,7 @@ color: #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .user-comment:focus {
-  border: 1px solid #404bbf;
+  border-color: #4D5AE5;;
  outline: transparent;
 } 
 .user-comment::placeholder{
